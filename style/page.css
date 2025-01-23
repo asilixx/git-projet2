@@ -1,0 +1,41 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;}
+
+
+
+.titre {
+    border-radius: 15px;
+    background-color: lemonchiffon;
+    padding: 10px;
+    width: 50%; 
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragraphe1{
+    padding: 10px;
+    width: 100%; 
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.img img {
+    width: 30%; 
+    border-radius: 10%; 
+}
+
+
