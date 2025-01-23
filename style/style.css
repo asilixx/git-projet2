@@ -1,0 +1,59 @@
+/* Reset des marges et des paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style général pour le corps */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Barre de navigation en haut */
+  .topBar {
+    background-color: #0073e6;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .topBar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .topBar a:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0073e6;
+  }
+  
+  .container p {
+    text-align: justify;
+    margin-bottom: 15px;
+  }
