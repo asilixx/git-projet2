@@ -5,6 +5,13 @@ body {
     align-items: center; 
     flex-direction: column;}
 
+.topBar {
+    /* background-color: gold; */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
 
 
 .titre {
